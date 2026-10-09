@@ -3,7 +3,6 @@
 function makeCalculator() {
   return {
     result: 0,
-
     add(value) {
       this.result += value;
 
